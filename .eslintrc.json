@@ -1,3 +1,67 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react-hooks", "@typescript-eslint", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-empty-pattern": "error",
+    "object-shorthand": "error",
+    "prefer-object-spread": "error",
+    "array-callback-return": "error",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "prefer-template": "error",
+    "no-eval": "error",
+    "prefer-const": "warn",
+    "prefer-rest-params": "error",
+    "prefer-arrow-callback": "error",
+    "default-param-last": "warn",
+    "no-duplicate-imports": "error",
+    "dot-notation": "warn",
+    "no-else-return": "warn",
+    "eqeqeq": "warn",
+    "no-nested-ternary": "warn",
+    "no-unneeded-ternary": "warn",
+    "no-mixed-operators": "warn",
+    "no-use-before-define": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "nonblock-statement-body-position": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-empty-function": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "import/no-unresolved": "error",
+    "import/no-mutable-exports": "error",
+    "import/first": "error",
+    "import/default": "error",
+    "import/newline-after-import": ["warn", { "count": 1 }],
+    "import/no-named-as-default-member": "error",
+    "import/no-webpack-loader-syntax": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
 }
