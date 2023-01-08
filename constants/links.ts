@@ -8,18 +8,18 @@ export const Links: LinkType[] = [
   { name: "Home", href: "/" },
   {
     name: "Community",
-    href: "/community",
+    href: "/#",
     links: [
       {
         name: "Team",
-        href: "/community/team",
+        href: "/#",
       },
       {
         name: "Explore",
-        href: "/community/explore",
+        href: "/#",
       },
     ],
   },
-  { name: "Blog", href: "blog" },
-  { name: "Events", href: "events" },
+  { name: "Blog", href: "/#" },
+  { name: "Events", href: "/#" },
 ];
