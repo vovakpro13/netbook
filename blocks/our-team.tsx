@@ -6,7 +6,7 @@ import MemberCard from "../partials/our-team/MemberCard";
 
 const OurTeam = () => {
   return (
-    <div className="mt-[46px] py-[84px] ">
+    <div className="sm:mt-[46px] py-[30px] sm:py-[84px] ">
       <div className="container flex items-center flex-col ">
         <div className="max-w-[454px] text-center">
           <p className="subtitle">Valuable Team</p>

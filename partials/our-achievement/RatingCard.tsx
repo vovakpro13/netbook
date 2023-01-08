@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 import Star from "../../public/star.png";
-import ArrowRightBlue from "../../public/arrow-right-blue.png";
 import FirstHuman from "../../public/human-1.png";
 import SecondHuman from "../../public/human-2.png";
 import ThirdHuman from "../../public/human-3.png";
+import ArrowRightIcon from "../../public/arrow-r.svg";
 
 const Avatars = [FirstHuman, SecondHuman, ThirdHuman];
 
@@ -50,13 +50,9 @@ const RatingCard = () => {
         touch with friends.
       </p>
 
-      <button className="btn font-medium transition text-[16px] leading-[16px] text-blue-300 mt-[40px] flex items-center hover:translate-x-1">
+      <button className="btn font-medium transition text-[16px] leading-[16px] gap-[8px] text-gray-900 hover:text-blue-300 mt-[40px] flex items-center hover:translate-x-1">
         Join Our Community
-        <Image
-          src={ArrowRightBlue}
-          alt="arr right blue"
-          className="w-[10px] h-[10px] ml-[8px]"
-        />
+        <ArrowRightIcon />
       </button>
     </div>
   );

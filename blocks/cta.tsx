@@ -7,8 +7,8 @@ import Appstore from "../public/appstore.png";
 
 const CTA = () => {
   return (
-    <div className="mt-[45px]  bg-blue-500 overflow-hidden">
-      <div className="container flex justify-between items-center relative py-[122px] h-full">
+    <div className="mt-[20px] sm:mt-[45px] bg-blue-500 overflow-hidden">
+      <div className="container flex justify-between items-center relative py-[50px] sm:py-[122px] h-full">
         <div className="max-w-[351px]">
           <p className="subtitle">Get Our Aplication</p>
 

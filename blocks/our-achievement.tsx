@@ -8,7 +8,7 @@ import AwwardsCard from "../partials/our-achievement/AwwardsCard";
 
 const OurAchievement = () => {
   return (
-    <div className="container mt-[22px] py-[75px] flex justify-center xl:justify-between flex-col-reverse md:flex-row items-center">
+    <div className="container sm:mt-[22px] py-[75px] flex justify-center xl:justify-between flex-col-reverse md:flex-row items-center">
       <div className="flex gap-[24px] flex-col sm:flex-row md:flex-col xl:flex-row md:mr-[100px] mt-[40px] md:mt-0">
         <RatingCard />
         <AwwardsCard />

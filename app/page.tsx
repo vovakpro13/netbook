@@ -6,6 +6,8 @@ import OurAchievement from "../blocks/our-achievement";
 import Features from "../blocks/features";
 import OurTeam from "../blocks/our-team";
 import CTA from "../blocks/cta";
+import News from "../blocks/news";
+import Footer from "../blocks/footer";
 
 const Page = () => {
   return (
@@ -16,6 +18,8 @@ const Page = () => {
       <Features />
       <OurTeam />
       <CTA />
+      <News />
+      <Footer />
     </div>
   );
 };

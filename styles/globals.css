@@ -102,7 +102,7 @@ textarea:focus ~ label {
 
 .header-block {
   background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
-  @apply pb-[82px]
+  @apply pb-[30px] sm:pb-[82px]
 }
 
 .btn-primary {

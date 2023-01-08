@@ -4,7 +4,7 @@ import FeatureCard from "../partials/features/FeatureCard";
 
 const Features = () => {
   return (
-    <div className="mt-[55px] pt-[60px] pb-[80px] feature-block-bg">
+    <div className="sm:mt-[55px] sm:pt-[60px] pb-[80px] feature-block-bg">
       <div className="container   flex items-center flex-col ">
         <div className="max-w-[440px] text-center">
           <p className="subtitle">Our Community</p>

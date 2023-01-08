@@ -1,6 +1,7 @@
 import "../styles/globals.css";
-import Head from "next/head";
 import React from "react";
+
+import "swiper/css";
 
 interface IProps {
   children: React.ReactNode;

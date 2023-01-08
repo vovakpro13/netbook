@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 import Trophy from "../../public/trophy.png";
-import ArrowRightGray from "../../public/arrow-right-gray.png";
 import GitHub from "../../public/github-icon.png";
+import ArrowRightIcon from "../../public/arrow-r.svg";
 
 const AwwardsCard = () => {
   return (
@@ -40,13 +40,9 @@ const AwwardsCard = () => {
         touch with friends.
       </p>
 
-      <button className="btn font-medium text-gray-900 transition text-[16px] leading-[16px]  mt-[40px] flex items-center hover:translate-x-1">
+      <button className="btn font-medium text-gray-900 hover:text-blue-300 gap-[8px] transition text-[16px] leading-[16px]  mt-[40px] flex items-center hover:translate-x-1">
         Go To Awards
-        <Image
-          src={ArrowRightGray}
-          alt="arr right blue"
-          className="w-[10px] h-[10px] ml-[8px]"
-        />
+        <ArrowRightIcon />
       </button>
     </div>
   );

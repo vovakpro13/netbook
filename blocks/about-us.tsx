@@ -11,7 +11,7 @@ const GroupItems = ["Groups", "Messages", "Share"];
 
 const AboutUs = () => {
   return (
-    <div className="container flex items-center flex-col lg:flex-row bg-white mt-[100px] py-[34px] justify-between">
+    <div className="container flex items-center flex-col lg:flex-row bg-white sm:mt-[100px] mt-[30px] py-[34px] justify-between">
       <div className="mb-6 lg:mb-0 lg:basis-[410px] lg:mr-1.5">
         <p className="subtitle">Whats Netboks?</p>
 
